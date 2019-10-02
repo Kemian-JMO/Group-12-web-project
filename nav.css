@@ -11,13 +11,20 @@ li {
 }
 
 li a,span {
+    text-transform: capitalize;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #255;
+
+}
+
+h1 {
+    text-align: center;
+
 }
