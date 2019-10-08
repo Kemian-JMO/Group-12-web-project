@@ -3,20 +3,24 @@ header
   background-color:  #0B132B;
   height: 80px;
 }
-h1
+header h1
 {
   font-family:serif;
-  color: #87b2e8;
+  color: #ffffff;
   text-align: center;
   margin: 0;
   padding-top: 20px;
   padding-bottom: 0;
 }
-nav{
-  background-color: #1C2541;
+/* nav{ */
+  /* background-color: #1C2541; */
+}
+
+.navbar{
+  text-align: center;
 }
 body{
-  background-color:#87b2e8;
+  background-color:#ffffff;
   margin:0;
 }
 ul {
