@@ -16,6 +16,9 @@ header h1
   /* background-color: #1C2541; */
 }
 
+.card{
+  width:15rem;
+}
 .navbar{
   text-align: center;
 }
@@ -62,7 +65,9 @@ h2, h3, p{
   margin-right:15px;
   margin-left:15px;
 }
-p{text-indent: 5px;}
+main p{
+  font-size:20px;
+}
 hr
 {
   border-color:#0B132B;
