@@ -22,6 +22,11 @@ header h1
 .navbar{
   text-align: center;
 }
+
+.mobile-grid-60, .mobile-grid-100{
+  font-size: 4vw;
+}
+
 body{
   background-color:#ffffff;
   margin:0;
