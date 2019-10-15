@@ -1,0 +1,1 @@
+The admin has set this repositry to not allow direct pushes to the master branch
