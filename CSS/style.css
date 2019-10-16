@@ -60,12 +60,20 @@ header h1 {
 
  .mobile-grid-50{
   background-color: #ccf5ac;
-  margin: -25px;
-  padding: 10px;
+  margin-top: -25px;
+  margin-bottom: -25px;
+  padding-top: 10px;
+  border-right-style: solid;
   border-right-width: 2px;
 }
 
-img
+.grid-20{
+
+  background-color: #ccf5ac;
+  margin-top: -25px;
+  margin-bottom: -25px;
+}
+
 .btn-secondary {
   font-size: 15px;
 }
