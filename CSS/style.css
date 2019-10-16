@@ -1,6 +1,5 @@
-header
-{
-  background-color:  #0B132B;
+header {
+  background-color: #2b4570;
   height: 80px;
 }
 header h1
@@ -26,6 +25,7 @@ header h1
 .mobile-grid-60, .mobile-grid-100{
   font-size: 4vw;
 }
+ background-color: #a8d0db;
 
 .btn-secondary{
   font-size:15px;
