@@ -78,7 +78,7 @@ body {
 
 
 
-h2, h3, p, h6 {
+h2, h3, p, h6, li {
   font-family: serif;
   padding: 5px;
   color: #0B132B;
@@ -98,7 +98,7 @@ h3{
   text-align: left;
 }
 
-main p {
+main p, main li {
   font-size: 20px;
 
 }
