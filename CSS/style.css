@@ -2,24 +2,26 @@ header {
   background-color: #2b4570;
   height: 80px;
 }
-header h1
-{
-  font-family:serif;
+
+header h1 {
+  font-family: serif;
   color: #ffffff;
   text-align: center;
   margin: 0;
   padding-top: 20px;
   padding-bottom: 0;
 }
+
 /* nav{ */
-  /* background-color: #1C2541; */
+/* background-color: #1C2541; */
 }
 
-.card{
-  width:15rem;
+.card {
+  width: 15rem;
 }
-.navbar{
-  text-align: center;
+
+.navbar {
+  text-align: center;a
 }
 
 .mobile-grid-60, .mobile-grid-100{
