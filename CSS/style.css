@@ -24,10 +24,23 @@ header h1 {
   text-align: center;a
 }
 
-.mobile-grid-60, .mobile-grid-100{
+/*nav {
+  background-color: #0c7489;
+}
+*/
+.mobile-grid-60, .mobile-grid-100 {
   font-size: 4vw;
 }
+/*added some border elements */
+.grid-60{
+ border-left-width: 2px;
+ border-left-style: solid;
+ border-right-width: 2px;
+ border-right-style: solid;
  background-color: #a8d0db;
+ margin: -25px;
+ padding: 10px;
+}
 
 .btn-secondary{
   font-size:15px;
