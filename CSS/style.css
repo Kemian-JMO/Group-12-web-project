@@ -42,14 +42,16 @@ header h1 {
  padding: 10px;
 }
 
-.btn-secondary{
-  font-size:15px;
+.btn-secondary {
+  font-size: 15px;
 }
 
-body{
-  background-color:#ffffff;
-  margin:0;
+body {
+  background-color: #ffffff;
+  margin: 0px;
+
 }
+
 ul {
   list-style-type: none;
   margin: 0;
