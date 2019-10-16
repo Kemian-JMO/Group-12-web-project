@@ -1,36 +1,34 @@
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #222;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222;
 }
 
 li {
-    float: left;
+  float: left;
 }
 
-li a,span {
-    text-transform: capitalize;
-    display: block;
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    padding: 16px 16px;
-    text-decoration: none;
+li a, span {
+  text-transform: capitalize;
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 16px 16px;
+  text-decoration: none;
 }
 
 li a:hover {
-    background-color: #818181;
-
+  background-color: #818181;
 }
 
 h1 {
-    text-align: center;
-    font-size: 30px;
-
+  text-align: center;
+  font-size: 30px;
 }
 
-body{
+body {
   text-align: justify;
 }

@@ -1,24 +1,26 @@
-header
-{
-  background-color:  #0B132B;
+header {
+  background-color: #0B132B;
   height: 80px;
 }
-h1
-{
-  font-family:serif;
+
+h1 {
+  font-family: serif;
   color: #cfe1f7;
   text-align: center;
   margin: 0;
   padding-top: 20px;
   padding-bottom: 0;
 }
-nav{
+
+nav {
   background-color: #1C2541;
 }
-body{
-  background-color:#cfe1f7;
-  margin:0;
+
+body {
+  background-color: #cfe1f7;
+  margin: 0;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -49,17 +51,20 @@ li a:hover {
   background-color: #0B132B;
 }
 
-h2, h3, p{
-  font-family:serif;
+h2, h3, p {
+  font-family: serif;
   padding: 5px;
-  color:#0B132B;
-  margin-top:7px;
-  margin-bottom:7px;
-  margin-right:15px;
-  margin-left:15px;
+  color: #0B132B;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
-p{text-indent: 5px;}
-hr
-{
-  border-color:#0B132B;
+
+p {
+  text-indent: 5px;
+}
+
+hr {
+  border-color: #0B132B;
 }
