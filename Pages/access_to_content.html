@@ -3,65 +3,161 @@
 <html lang="en" dir="ltr">
 <html>
 <!-- Page Tab Title-->
-	<head>
-		<link rel="stylesheet" href="nav.css">
-		<title>wikipedia - Access to Content</title>
-	</head>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/unsemantic-grid-responsive-tablet.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wikipedia - Access to Content</title>
+</head>
 <!-- Main page title -->
-	<header>
-		<h1>WIKIPEDIA</h1>
-	</Header>
-<!-- Menu -->
-	<section>
-		<nav>
-		  <ul>
-				<li><a href="home.html">Home</a></li>
-		    <li><a href="history.html">History</a></li>
-		    <li><a href="openness.html">Openness</a></li>
-		    <li><a href="policies_and_laws.html">Policies and Laws</a></li>
-		    <li><a href="governance.html">Governance</a></li>
-		    <li><a href="community.html">Community</a></li>
-				<li><a href="language_editions.html">Language Editions</a></li>
-				<li><a href="reception.html">Reception</a></li>
-				<li><a href="operation.html">Operation</a></li>
-				<li><a href="access_to_content.html">Access to content</a></li>
-				<li><a href="cultural_impact.html">Cultural impact</a></li>
-				<li><a href="related_projects.html">Related projects</a></li>
-				<li><a href="see_also.html">See also</a></li>
-				<li><a href="notes.html">Notes</a></li>
-				<li><a href="references.html">References</a></li>
-		  </ul>
-		</nav>
-	</section>
-<!-- ^^ INCLUDE THIS ON EVERY PAGE ^^ -->
 
 <body>
-	<p>
-	Content licensing
-	When the project was started in 2001, all text in Wikipedia was covered by the GNU Free Documentation License (GFDL), a copyleft license permitting the redistribution, creation of derivative works, and commercial use of content while authors retain copyright of their work. The GFDL was created for software manuals that come with free software programs licensed under the GPL. This made it a poor choice for a general reference work: for example, the GFDL requires the reprints of materials from Wikipedia to come with a full copy of the GFDL text. In December 2002, the Creative Commons license was released: it was specifically designed for creative works in general, not just for software manuals. The license gained popularity among bloggers and others distributing creative works on the Web. The Wikipedia project sought the switch to the Creative Commons. Because the two licenses, GFDL and Creative Commons, were incompatible, in November 2008, following the request of the project, the Free Software Foundation (FSF) released a new version of the GFDL designed specifically to allow Wikipedia to relicense its content to CC BY-SA by August 1, 2009. (A new version of the GFDL automatically covers Wikipedia contents.) In April 2009, Wikipedia and its sister projects held a community-wide referendum which decided the switch in June 2009.
-	The handling of media files (e.g. image files) varies across language editions. Some language editions, such as the English Wikipedia, include non-free image files under fair use doctrine, while the others have opted not to, in part because of the lack of fair use doctrines in their home countries (e.g. in Japanese copyright law). Media files covered by free content licenses (e.g. Creative Commons' CC BY-SA) are shared across language editions via Wikimedia Commons repository, a project operated by the Wikimedia Foundation. Wikipedia's accommodation of varying international copyright laws regarding images has led some to observe that its photographic coverage of topics lags behind the quality of the encyclopedic text.
-	The Wikimedia Foundation is not a licensor of content, but merely a hosting service for the contributors (and licensors) of the Wikipedia. This position has been successfully defended in court.
-	Methods of access
-	Because Wikipedia content is distributed under an open license, anyone can reuse or re-distribute it at no charge. The content of Wikipedia has been published in many forms, both online and offline, outside of the Wikipedia website.
-	Websites – Thousands of "mirror sites" exist that republish content from Wikipedia: two prominent ones, that also include content from other reference sources, are Reference.com and Answers.com. Another example is Wapedia, which began to display Wikipedia content in a mobile-device-friendly format before Wikipedia itself did.
-	Mobile apps – A variety of mobile apps provide access to Wikipedia on hand-held devices, including both Android and iOS devices (see Wikipedia apps). (See also Mobile access.)
-	Search engines – Some web search engines make special use of Wikipedia content when displaying search results: examples include Bing (via technology gained from Powerset) and DuckDuckGo.
-	Compact discs, DVDs – Collections of Wikipedia articles have been published on optical discs. An English version, 2006 Wikipedia CD Selection, contained about 2,000 articles. The Polish-language version contains nearly 240,000 articles. There are German- and Spanish-language versions as well. Also, "Wikipedia for Schools", the Wikipedia series of CDs / DVDs produced by Wikipedians and SOS Children, is a free, hand-checked, non-commercial selection from Wikipedia targeted around the UK National Curriculum and intended to be useful for much of the English-speaking world. The project is available online; an equivalent print encyclopedia would require roughly 20 volumes.
-	Printed books – There are efforts to put a select subset of Wikipedia's articles into printed book form. Since 2009, tens of thousands of print-on-demand books that reproduced English, German, Russian and French Wikipedia articles have been produced by the American company Books LLC and by three Mauritian subsidiaries of the German publisher VDM.
-	Semantic Web – The website DBpedia, begun in 2007, extracts data from the infoboxes and category declarations of the English-language Wikipedia. Wikimedia has created the Wikidata project with a similar objective of storing the basic facts from each page of Wikipedia and the other WMF wikis and make it available in a queriable semantic format, RDF. This is still under development. As of February 2014 it has 15,000,000 items and 1,000 properties for describing them.
-	Obtaining the full contents of Wikipedia for reuse presents challenges, since direct cloning via a web crawler is discouraged. Wikipedia publishes "dumps" of its contents, but these are text-only; as of 2007 there was no dump available of Wikipedia's images.
-	Several languages of Wikipedia also maintain a reference desk, where volunteers answer questions from the general public. According to a study by Pnina Shachaf in the Journal of Documentation, the quality of the Wikipedia reference desk is comparable to a standard library reference desk, with an accuracy of 55 percent.
-	Mobile access
-	See also: Help:Mobile access
+	<header>
+		<div class="col-sm mx-auto">
+			<h1>WIKIPEDIA</h1>
+		</div>
+	</header>
+	<nav>
+		<div class="row mx-auto navbar bg-secondary">
+			<div class="col-">
+				<a href="home.html" button type="button" class="btn btn-secondary">Home</button></a>
+			</div>
+			<div class="col-">
+				<a href="history.html" button type="button" class="btn btn-secondary">History</button></a>
+			</div>
+			<div class="col-">
+				<a href="openness.html" button type="button" class="btn btn-secondary">Openness</button></a>
+			</div>
+			<div class="col-">
+				<a href="policies_and_laws.html" button type="button" class="btn btn-secondary">Policies and Laws</button></a>
+			</div>
+			<div class="col-">
+				<a href="governance.html" button type="button" class="btn btn-secondary">Governance</button></a>
+			</div>
+			<div class="col-">
+				<a href="community.html" button type="button" class="btn btn-secondary">Community</button></a>
+			</div>
+			<div class="col-">
+				<a href="language_editions.html" button type="button" class="btn btn-secondary">Language Editions</button></a>
+			</div>
+			<div class="col-">
+				<a href="reception.html" button type="button" class="btn btn-secondary">Reception</button></a>
+			</div>
+			<div class="col-">
+				<a href="operation.html" button type="button" class="btn btn-secondary">Operation</button></a>
+			</div>
+			<div class="col-">
+				<a href="access_to_content.html" button type="button" class="btn btn-secondary">Access to Content</button></a>
+			</div>
+			<div class="col-">
+				<a href="cultural_impact.html" button type="button" class="btn btn-secondary">Cultural Impact</button></a>
+			</div>
+			<div class="col-">
+				<a href="related_projects.html" button type="button" class="btn btn-secondary">Related Projects</button></a>
+			</div>
+		</div>
+	</nav>
 
-
-	The mobile version of the English Wikipedia's main page
-	Wikipedia's original medium was for users to read and edit content using any standard web browser through a fixed Internet connection. Although Wikipedia content has been accessible through the mobile web since July 2013, The New York Times on February 9, 2014, quoted Erik Möller, deputy director of the Wikimedia Foundation, stating that the transition of internet traffic from desktops to mobile devices was significant and a cause for concern and worry. The article in The New York Times reported the comparison statistics for mobile edits stating that, "Only 20 percent of the readership of the English-language Wikipedia comes via mobile devices, a figure substantially lower than the percentage of mobile traffic for other media sites, many of which approach 50 percent. And the shift to mobile editing has lagged even more." The New York Times reports that Möller has assigned "a team of 10 software developers focused on mobile", out of a total of approximately 200 employees working at the Wikimedia Foundation. One principal concern cited by The New York Times for the "worry" is for Wikipedia to effectively address attrition issues with the number of editors which the online encyclopedia attracts to edit and maintain its content in a mobile access environment.
-	Bloomberg Businessweek reported in July 2014 that Google's Android mobile apps have dominated the largest share of global smartphone shipments for 2013 with 78.6% of market share over their next closest competitor in iOS with 15.2% of the market. At the time of the Tretikov appointment and her posted web interview with Sue Gardner in May 2014, Wikimedia representatives made a technical announcement concerning the number of mobile access systems in the market seeking access to Wikipedia. Directly after the posted web interview, the representatives stated that Wikimedia would be applying an all-inclusive approach to accommodate as many mobile access systems as possible in its efforts for expanding general mobile access, including BlackBerry and the Windows Phone system, making market share a secondary issue. The latest version of the Android app for Wikipedia was released on July 23, 2014, to generally positive reviews, scoring over four of a possible five in a poll of approximately 200,000 users downloading from Google. The latest version for iOS was released on April 3, 2013, to similar reviews.
-	Access to Wikipedia from mobile phones was possible as early as 2004, through the Wireless Application Protocol (WAP), via the Wapedia service. In June 2007 Wikipedia launched en.mobile.wikipedia.org, an official website for wireless devices. In 2009 a newer mobile service was officially released, located at en.m.wikipedia.org, which caters to more advanced mobile devices such as the iPhone, Android-based devices or WebOS-based devices. Several other methods of mobile access to Wikipedia have emerged. Many devices and applications optimize or enhance the display of Wikipedia content for mobile devices, while some also incorporate additional features such as use of Wikipedia metadata (See Wikipedia:Metadata), such as geoinformation.
-	Wikipedia Zero was an initiative of the Wikimedia Foundation to expand the reach of the encyclopedia to the developing countries. It was discontinued in February 2018.
-	Andrew Lih and Andrew Brown both maintain editing Wikipedia with smart phones is difficult and this discourages new potential contributors. Several years running the number of Wikipedia editors has been falling and Tom Simonite of MIT Technology Review claims the bureaucratic structure and rules are a factor in this. Simonite alleges some Wikipedians use the labyrinthine rules and guidelines to dominate others and those editors have a vested interest in keeping the status quo. Lih alleges there is serious disagreement among existing contributors how to resolve this. Lih fears for Wikipedia's long term future while Brown fears problems with Wikipedia will remain and rival encyclopedias will not replace it.
-	</p>
+	<main>
+		<!-- TEMPLATE FOR ONE ROW OF TEXT IN PAGE-->
+		<div class="row mx-auto mt-4">
+			<div class="grid-20 mobile-grid-0">
+				<!-- Blank space on left of page-->
+			</div>
+			<!-- Middle Column for text in page-->
+			<div class="grid-60 mobile-grid-100">
+				<h2>Access to content</h2>
+				<h3>Content licensing</h3>
+				<p>When the project was started in 2001, all text in Wikipedia was covered by the GNU Free Documentation License (GFDL), a copyleft license permitting the redistribution, creation of derivative works, and commercial use of content while
+					authors retain copyright of their work. The GFDL was created for software manuals that come with free software programs licensed under the GPL. This made it a poor choice for a general reference work: for example, the GFDL requires the
+					reprints of materials from Wikipedia to come with a full copy of the GFDL text. In December 2002, the Creative Commons license was released: it was specifically designed for creative works in general, not just for software manuals. The
+					license gained popularity among bloggers and others distributing creative works on the Web. The Wikipedia project sought the switch to the Creative Commons. Because the two licenses, GFDL and Creative Commons, were incompatible, in November
+					2008, following the request of the project, the Free Software Foundation (FSF) released a new version of the GFDL designed specifically to allow Wikipedia to relicense its content to CC BY-SA by August 1, 2009. (A new version of the GFDL
+					automatically covers Wikipedia contents.) In April 2009, Wikipedia and its sister projects held a community-wide referendum which decided the switch in June 2009.
+				</p>
+				<p>
+					The handling of media files (e.g. image files) varies across language editions. Some language editions, such as the English Wikipedia, include non-free image files under fair use doctrine, while the others have opted not to, in part because
+					of the lack of fair use doctrines in their home countries (e.g. in Japanese copyright law). Media files covered by free content licenses (e.g. Creative Commons' CC BY-SA) are shared across language editions via Wikimedia Commons repository,
+					a project operated by the Wikimedia Foundation. Wikipedia's accommodation of varying international copyright laws regarding images has led some to observe that its photographic coverage of topics lags behind the quality of the encyclopedic
+					text.
+				</p>
+				<p>
+					The Wikimedia Foundation is not a licensor of content, but merely a hosting service for the contributors (and licensors) of the Wikipedia. This position has been successfully defended in court.
+				</p>
+				<h3>
+					Methods of access
+				</h3>
+				<p>
+					Because Wikipedia content is distributed under an open license, anyone can reuse or re-distribute it at no charge. The content of Wikipedia has been published in many forms, both online and offline, outside of the Wikipedia website.
+				</p>
+				<ul class="in-text-list">
+					<li class="in-text-list"><strong>Websites</strong> – Thousands of "mirror sites" exist that republish content from Wikipedia: two prominent ones, that also include content from other reference sources, are Reference.com and Answers.com.
+						Another example is Wapedia, which began to display Wikipedia content in a mobile-device-friendly format before Wikipedia itself did.</li>
+					<li class="in-text-list"><strong>Mobile apps</strong> – A variety of mobile apps provide access to Wikipedia on hand-held devices, including both Android and iOS devices (see Wikipedia apps). (See also Mobile access.)</li>
+					<li class="in-text-list"><strong>Search engines</strong> – Some web search engines make special use of Wikipedia content when displaying search results: examples include Bing (via technology gained from Powerset) and DuckDuckGo.</li>
+					<li class="in-text-list"><strong>Compact discs, DVDs</strong> – Collections of Wikipedia articles have been published on optical discs. An English version, 2006 Wikipedia CD Selection, contained about 2,000 articles. The Polish-language
+						version contains nearly 240,000 articles. There are German- and Spanish-language versions as well. Also, "Wikipedia for Schools", the Wikipedia series of CDs / DVDs produced by Wikipedians and SOS Children, is a free, hand-checked,
+						non-commercial selection from Wikipedia targeted around the UK National Curriculum and intended to be useful for much of the English-speaking world. The project is available online; an equivalent print encyclopedia would require roughly
+						20 volumes.</li>
+					<li class="in-text-list"> <strong>Printed books</strong> – There are efforts to put a select subset of Wikipedia's articles into printed book form. Since 2009, tens of thousands of print-on-demand books that reproduced English, German,
+						Russian and French Wikipedia articles have been produced by the American company Books LLC and by three Mauritian subsidiaries of the German publisher VDM.
+					</li>
+					<li class="in-text-list"><strong>Semantic Web</strong> – The website DBpedia, begun in 2007, extracts data from the infoboxes and category declarations of the English-language Wikipedia. Wikimedia has created the Wikidata project with a
+						similar objective of storing the basic facts from each page of Wikipedia and the other WMF wikis and make it available in a queriable semantic format, RDF. This is still under development. As of February 2014 it has 15,000,000 items and
+						1,000 properties for describing them.</li>
+				</ul>
+				<p>Obtaining the full contents of Wikipedia for reuse presents challenges, since direct cloning via a web crawler is discouraged. Wikipedia publishes "dumps" of its contents, but these are text-only; as of 2007 there was no dump available of
+					Wikipedia's images.</p>
+				<p>
+					Several languages of Wikipedia also maintain a reference desk, where volunteers answer questions from the general public. According to a study by Pnina Shachaf in the Journal of Documentation, the quality of the Wikipedia reference desk is
+					comparable to a standard library reference desk, with an accuracy of 55 percent.
+				</p>
+				<h3>Mobile access</h3>
+				<p>
+				The mobile version of the English Wikipedia's main page
+				Wikipedia's original medium was for users to read and edit content using any standard web browser through a fixed Internet connection. Although Wikipedia content has been accessible through the mobile web since July 2013, The New York Times on
+				February 9, 2014, quoted Erik Möller, deputy director of the Wikimedia Foundation, stating that the transition of internet traffic from desktops to mobile devices was significant and a cause for concern and worry. The article in The New York
+				Times reported the comparison statistics for mobile edits stating that, "Only 20 percent of the readership of the English-language Wikipedia comes via mobile devices, a figure substantially lower than the percentage of mobile traffic for other
+				media sites, many of which approach 50 percent. And the shift to mobile editing has lagged even more." The New York Times reports that Möller has assigned "a team of 10 software developers focused on mobile", out of a total of approximately 200
+				employees working at the Wikimedia Foundation. One principal concern cited by The New York Times for the "worry" is for Wikipedia to effectively address attrition issues with the number of editors which the online encyclopedia attracts to edit
+				and maintain its content in a mobile access environment.</p>
+				<p>
+					Bloomberg Businessweek reported in July 2014 that Google's Android mobile apps have dominated the largest share of global smartphone shipments for 2013 with 78.6% of market share over their next closest competitor in iOS with 15.2% of the market.
+					At the time of the Tretikov appointment and her posted web interview with Sue Gardner in May 2014, Wikimedia representatives made a technical announcement concerning the number of mobile access systems in the market seeking access to Wikipedia.
+					Directly after the posted web interview, the representatives stated that Wikimedia would be applying an all-inclusive approach to accommodate as many mobile access systems as possible in its efforts for expanding general mobile access, including
+					BlackBerry and the Windows Phone system, making market share a secondary issue. The latest version of the Android app for Wikipedia was released on July 23, 2014, to generally positive reviews, scoring over four of a possible five in a poll of
+					approximately 200,000 users downloading from Google. The latest version for iOS was released on April 3, 2013, to similar reviews.
+				</p>
+				<p>
+					Access to Wikipedia from mobile phones was possible as early as 2004, through the Wireless Application Protocol (WAP), via the Wapedia service. In June 2007 Wikipedia launched en.mobile.wikipedia.org, an official website for wireless devices. In
+					2009 a newer mobile service was officially released, located at en.m.wikipedia.org, which caters to more advanced mobile devices such as the iPhone, Android-based devices or WebOS-based devices. Several other methods of mobile access to Wikipedia
+					have emerged. Many devices and applications optimize or enhance the display of Wikipedia content for mobile devices, while some also incorporate additional features such as use of Wikipedia metadata (See Wikipedia:Metadata), such as
+					geoinformation.
+				</p>
+				<p>
+Wikipedia Zero was an initiative of the Wikimedia Foundation to expand the reach of the encyclopedia to the developing countries. It was discontinued in February 2018.
+				</p>
+				<p>
+					Andrew Lih and Andrew Brown both maintain editing Wikipedia with smart phones is difficult and this discourages new potential contributors. Several years running the number of Wikipedia editors has been falling and Tom Simonite of MIT Technology
+					Review claims the bureaucratic structure and rules are a factor in this. Simonite alleges some Wikipedians use the labyrinthine rules and guidelines to dominate others and those editors have a vested interest in keeping the status quo. Lih
+					alleges there is serious disagreement among existing contributors how to resolve this. Lih fears for Wikipedia's long term future while Brown fears problems with Wikipedia will remain and rival encyclopedias will not replace it.
+				</p>
+			</div>
+			<!-- Right column for image card. If no image, remove div  class="card" but keep div class="col"-->
+			<div class="grid-20 mobile-grid-50 mx-auto">
+				<div class="card mx-auto">
+					<img src="../images/Access_to_content_Wikipedia_on_Mobile.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Wikipedia on Mobile</h5>
+						<p class="card-text">The mobile version of the English Wikipedia's main page</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
 </body>
 
 
