@@ -52,7 +52,7 @@ body {
 
 }
 
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -60,7 +60,7 @@ ul {
   background-color: #1C2541;
 }
 
-li {
+nav li {
   float: left;
   border-right-width: 1px;
   border-right-style: solid;
@@ -70,7 +70,7 @@ li {
   border-bottom-color: #0B132B;
 }
 
-li a {
+nav li a {
   display: block;
   color: #87b2e8;
   text-align: center;
@@ -78,7 +78,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+nav li a:hover {
   background-color: #0B132B;
 }
 
