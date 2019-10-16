@@ -1,3 +1,19 @@
+/*
+new colour scheme sugestion
+
+#6c757d
+
+#2b4570
+
+#a8d0db
+
+#ccf5ac
+
+#bad29f
+
+https://coolors.co/6c757d-2b4570-a8d0db-ccf5ac-bad29f
+
+*/
 header {
   background-color: #2b4570;
   height: 80px;
@@ -32,7 +48,7 @@ header h1 {
   font-size: 4vw;
 }
 /*added some border elements */
-.grid-60{
+.grid-60, .mobile-grid-60, .mobile-grid-100 {
  border-left-width: 2px;
  border-left-style: solid;
  border-right-width: 2px;
@@ -40,6 +56,22 @@ header h1 {
  background-color: #a8d0db;
  margin: -25px;
  padding: 10px;
+}
+
+ .mobile-grid-50{
+  background-color: #ccf5ac;
+  margin-top: -25px;
+  margin-bottom: -25px;
+  padding-top: 10px;
+  border-right-style: solid;
+  border-right-width: 2px;
+}
+
+.grid-20{
+
+  background-color: #ccf5ac;
+  margin-top: -25px;
+  margin-bottom: -25px;
 }
 
 .btn-secondary {
@@ -52,39 +84,9 @@ body {
 
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #1C2541;
-}
-
-nav li {
-  float: left;
-  border-right-width: 1px;
-  border-right-style: solid;
-  border-right-color: #0B132B;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #0B132B;
-}
-
-nav li a {
-  display: block;
-  color: #87b2e8;
-  text-align: center;
-  padding: 12px 12px;
-  text-decoration: none;
-}
-
-nav li a:hover {
-  background-color: #0B132B;
-}
 
 
-
-h2, h3, p, h6 {
+h2, h3, p, h6, li {
   font-family: serif;
   padding: 5px;
   color: #0B132B;
@@ -104,7 +106,7 @@ h3{
   text-align: left;
 }
 
-main p {
+main p, main li {
   font-size: 20px;
 
 }
