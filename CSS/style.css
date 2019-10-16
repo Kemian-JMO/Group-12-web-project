@@ -112,3 +112,13 @@ main p {
 hr {
   border-color: #0B132B;
 }
+
+.progress{
+  height: 20px;
+}
+
+.progress-bar p{
+  text-align: left;
+}
+
+
