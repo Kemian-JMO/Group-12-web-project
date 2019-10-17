@@ -44,11 +44,11 @@ header h1 {
 
 .blue {
   background-color: #a8d0db;
-  padding: 10px;
+  
 }
 
 .green {
-  padding-top: 10px;
+
   background-color: #ccf5ac;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 
-h2, h3, p, h6{
+h2, h3, p, h6, main li{
 
   font-family: serif;
   padding: 5px;
