@@ -27,9 +27,6 @@ header h1 {
   padding-top: 20px;
   padding-bottom: 0;
 }
-
-/* nav{ */
-/* background-color: #1C2541; */
 }
 
 .card {
@@ -37,41 +34,22 @@ header h1 {
 }
 
 .navbar {
-  text-align: center;a
+  text-align: center;
+  a
 }
 
-/*nav {
-  background-color: #0c7489;
-}
-*/
 .mobile-grid-60, .mobile-grid-100 {
   font-size: 4vw;
 }
-/*added some border elements */
-.grid-60, .mobile-grid-60, .mobile-grid-100 {
- border-left-width: 2px;
- border-left-style: solid;
- border-right-width: 2px;
- border-right-style: solid;
- background-color: #a8d0db;
- margin: -25px;
- padding: 10px;
+
+.blue {
+  background-color: #a8d0db;
+  padding: 10px;
 }
 
- .mobile-grid-50{
-  background-color: #ccf5ac;
-  margin-top: -25px;
-  margin-bottom: -25px;
+.green {
   padding-top: 10px;
-  border-right-style: solid;
-  border-right-width: 2px;
-}
-
-.grid-20{
-
   background-color: #ccf5ac;
-  margin-top: -25px;
-  margin-bottom: -25px;
 }
 
 .btn-secondary {
@@ -81,12 +59,11 @@ header h1 {
 body {
   background-color: #ffffff;
   margin: 0px;
-
 }
 
 
+h2, h3, p, h6, li {
 
-h2, h3, p, h6 {
   font-family: serif;
   padding: 5px;
   color: #0B132B;
@@ -95,33 +72,36 @@ h2, h3, p, h6 {
   margin-right: 15px;
   margin-left: 15px;
 }
-h2{
+
+h2 {
   font-weight: bold;
   font-size: 40px;
   text-align: left;
 }
 
-h3{
+h3 {
   margin-top: 20px;
   text-align: left;
 }
 
 main p, main li {
   font-size: 20px;
-
 }
 
 hr {
   border-color: #0B132B;
 }
 
+
 .progress{
   height: 30px;
+
 }
 
-.progress-bar p{
+.progress-bar p {
   text-align: left;
 }
+
 
 .card-body li{
   margin: 0;
@@ -136,65 +116,96 @@ hr {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+
 }
 
-#eng{
+#eng {
   width: 99.202566666%;
 }
-#ceb{
+
+#ceb {
   width: 89.6478166667%;
 }
-#swe{
+
+#swe {
   width: 62.4749166667%;
 }
-#ger{
+
+#ger {
   width: 39.2439333333%;
 }
-#fre{
+
+#fre {
   width: 35.78155%;
 }
-#dut{
+
+#dut {
   width: 33.0188833333%;
 }
-#rus{
+
+#rus {
   width: 26.2324166667%;
 }
-#ita{
+
+#ita {
   width: 25.9805666667%;
 }
-#spa{
+
+#spa {
   width: 25.8527166667%;
 }
-#pol{
+
+#pol {
   width: 22.7604166667%;
 }
-#war{
+
+#war {
   width: 21.0628333333%;
 }
-#vie{
+
+#vie {
   width: 20.6223%;
 }
-#jap{
+
+#jap {
   width: 19.5499833333%;
 }
-#chi{
+
+#chi {
   width: 17.9566666667%;
 }
-#por{
+
+#por {
   width: 16.9178666667%;
 }
-#ara{
+
+#ara {
   width: 16.0537666667%;
 }
-#ukr{
+
+#ukr {
   width: 15.69495%;
 }
-#per{
+
+#per {
   width: 11.5887%;
 }
-#cat{
+
+#cat {
   width: 10.4248166667%;
 }
-#ser{
-width: 10.4230333333%;
+
+#ser {
+  width: 10.4230333333%;
 }
+
+footer {
+  background-color: #bad29f;
+  height: 100px;
+}
+
+footer p {
+  color: #6c757d;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: auto;
