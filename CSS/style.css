@@ -106,7 +106,19 @@ hr {
   text-align: left;
 }
 
+footer{
+background-color: #bad29f;
+height: 100px;
 
+}
+
+footer p{
+color: #6c757d;
+margin-top: 25px;
+margin-bottom: 25px;
+height: auto;
+
+}
 #eng{
   width: 99.202566666%;
 }
