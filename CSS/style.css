@@ -44,11 +44,9 @@ header h1 {
 
 .blue {
   background-color: #a8d0db;
-  
 }
 
 .green {
-
   background-color: #ccf5ac;
 }
 
@@ -61,9 +59,7 @@ body {
   margin: 0px;
 }
 
-
-h2, h3, p, h6, main li{
-
+h2, h3, p, h6, main li {
   font-family: serif;
   padding: 5px;
   color: #0B132B;
@@ -92,31 +88,26 @@ hr {
   border-color: #0B132B;
 }
 
-
-.progress{
+.progress {
   height: 30px;
-
 }
 
 .progress-bar p {
   text-align: left;
 }
 
-
-.card-body li{
+.card-body li {
   margin: 0;
   padding: 0;
   font-size: 16px;
-
 }
 
-.outlinetext{
-    text-shadow:
+.outlinetext {
+  text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
-
 }
 
 #eng {
@@ -212,6 +203,21 @@ footer p {
   height: auto;
 }
 
-.row{
+.row {
   margin: 0;
+}
+
+.cite h2 {
+  font-weight: lighter;
+  font-size: 28px;
+}
+
+.cite li, cite {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+.up {
+  font-size: 20px;
+  font-weight: bolder;
 }
