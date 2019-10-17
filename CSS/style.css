@@ -28,8 +28,7 @@ header h1 {
   padding-bottom: 0;
 }
 
-/* nav{ */
-/* background-color: #1C2541; */
+
 }
 
 .card {
@@ -40,38 +39,22 @@ header h1 {
   text-align: center;a
 }
 
-/*nav {
-  background-color: #0c7489;
-}
-*/
+
 .mobile-grid-60, .mobile-grid-100 {
   font-size: 4vw;
 }
-/*added some border elements */
-.grid-60, .mobile-grid-60, .mobile-grid-100 {
- border-left-width: 2px;
- border-left-style: solid;
- border-right-width: 2px;
- border-right-style: solid;
+
+.blue {
  background-color: #a8d0db;
- margin: -25px;
  padding: 10px;
 }
 
- .mobile-grid-50{
-  background-color: #ccf5ac;
-  margin-top: -25px;
-  margin-bottom: -25px;
+
+
+.green{
   padding-top: 10px;
-  border-right-style: solid;
-  border-right-width: 2px;
-}
-
-.grid-20{
-
   background-color: #ccf5ac;
-  margin-top: -25px;
-  margin-bottom: -25px;
+
 }
 
 .btn-secondary {
